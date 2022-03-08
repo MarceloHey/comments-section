@@ -1,0 +1,102 @@
+.commentCard {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  gap: 5px;
+  border-radius: .5rem;
+  padding: 1.5rem;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.commentHeader {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.commentInfo {
+  display: flex;
+  align-items: center;
+}
+
+.commentInfo p {
+  font-weight: 500;
+}
+
+.commentInfo span {
+  color: var(--grayish-blue)
+}
+
+.commentInfo img, .commentInfo p {
+  margin-right: 1rem;
+}
+
+.profilePicture {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.commentContent {
+  color: var(--grayish-blue );
+  display: flex;
+  flex-wrap:wrap;
+  word-break: break-all;
+}
+
+.reply, .edit, .delete {
+  background-color: white;
+  border: none;
+  color: var(--grayish-blue);
+  font-weight: bold;
+  display: flex;
+  flex:1;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.reply.active, .edit.active {
+  color: var(--moderate-blue)
+}
+
+.reply svg path, .edit svg path {
+  fill: var(--grayish-blue)
+}
+
+.reply.active svg path, .edit.active svg path {
+  fill: var(--moderate-blue)
+}
+
+.reply svg, .edit svg, .delete svg {
+  margin-right: 5px;
+}
+
+.reply:hover, .edit:hover {
+  color: var(--moderate-blue);
+}
+.reply:hover svg path, .edit:hover svg path {
+  fill: var(--moderate-blue)
+}
+
+.delete:hover {
+  color: #ED6368
+}
+
+.delete svg path {
+  fill: var(--grayish-blue);
+}
+.delete:hover svg path {
+  fill: #ED6368
+}
+
+.buttons {
+  display: flex;
+}
+.buttons button:nth-child(2) {
+  margin-left: 10px;
+}
