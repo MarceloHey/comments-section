@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I've been trying to make a real life example of a comment section using ReactJS using the json-server lib to mock an API, but it is very limited for not alowing me to access nested resources within my json.db file, i haven't figured out how to solve this issue. So for now consider this project as a practice for React concepts and web design only and not a fully functional comment section
 
 ## Available Scripts
 
